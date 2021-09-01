@@ -1,6 +1,15 @@
 body {
-  background-color: #373737;
+  background-color: #white;
   font-family: garamond, serif;
+}
+
+/* Style the header */
+header {
+  background-color: #373737;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
 }
 
 /*style for glowing header*/
@@ -14,43 +23,10 @@ body {
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #e60073, 0 0 20px #e60073, 0 0 25px #e60073, 0 0 30px #e60073, 0 0 35px #e60073;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #7A1712, 0 0 20px #7A1712, 0 0 25px #7A1712, 0 0 30px #7A1712, 0 0 35px #7A1712;
   }
 
   to {
-    text-shadow: 0 0 10px #fff, 0 0 20px #ff4da6, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6;
+    text-shadow: 0 0 10px #fff, 0 0 20px #9B1003, 0 0 30px #9B1003, 0 0 40px #9B1003, 0 0 50px #9B1003, 0 0 60px #9B1003, 0 0 70px #9B1003;
   }
-}
-
-/* Style the navbar */
-navbar {
-  overflow: hidden;
-  background-color: #900603;
-}
-
-/* Navbar links */
-navbar a {
-  float: left;
-  display: block;
-  color: #B90E0A;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-}
-
-/* Page content */
-.content {
-  padding: 16px;
-}
-
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 60px;
 }
