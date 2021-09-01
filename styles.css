@@ -6,7 +6,8 @@ body {
 /* Style the header */
 header {
   background-color: #373737;
-  padding: 0px;
+  padding: 35px;
+  margin: 0px;
   text-align: center;
 }
 
@@ -28,6 +29,17 @@ header {
     text-shadow: 0 0 10px , 0 0 20px #9B1003, 0 0 30px #9B1003, 0 0 40px #9B1003, 0 0 50px #9B1003, 0 0 60px #9B1003, 0 0 70px #9B1003;
   }
 }
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+img {
+  float: left;
+}
+
 /* Style the content */
 article {
   -webkit-flex: 3;
