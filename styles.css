@@ -1,72 +1,125 @@
-.center {
-  display: flex;
-  width: 100vw;
-  height: 100vh;
-  background: {
-    color: black;
-    image: url(https://images.unsplash.com/photo-1446080501695-8e929f879f2b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=34658e73aff775c8d4eec54bbfd1c011);
-    repeat: no-repeat;
-    position: center;
-    size: cover;
-  }
+.mySlides {display:none;}
+
+* {
+  box-sizing: border-box;
 }
 
-.center__text {
-  margin: auto;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 120px;
-  text-transform: uppercase;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.glitch {
-  position: relative;
+/* Style the header */
+header {
+  background-color: #b93a39;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
   color: white;
-  mix-blend-mode: lighten;
+}
 
-  &:before,
-  &:after {
-      content: attr(data-text);
-      position: absolute;
-      top: 0;
-      width: 100%;
-      background: black;
-      clip: rect(0, 0, 0, 0);
-  }
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
 
-  &:before {
-      left: -1px;
-      text-shadow: 1px 0 rgba(red,0.7);
-  }
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #edd6a0;
+  padding: 20px;
+}
 
-  &:after {
-      left: 1px;
-      text-shadow: -1px 0 rgba(blue,0.7);
-  }
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
 
-  &:hover {
-    &:before {
-      text-shadow: 4px 0 rgba(red,0.7);
-      animation: glitch-loop-1 0.8s infinite ease-in-out alternate-reverse;
-    }
-    &:after {
-      text-shadow: -5px 0 rgba(blue,0.7);
-      animation: glitch-loop-2 0.8s infinite ease-in-out alternate-reverse;
-    }
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #edd6a0;
+  padding: 10px;
+}
+
+aside {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+summary {
+  padding: 20px;
+  background: #edd6a0;
+}
+
+/* Style the footer */
+footer {
+  background-color: #b93a39;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
   }
 }
 
-@keyframes glitch-loop-1 {
-  0% { clip: rect(36px, 9999px, 9px, 0) }
-  25% { clip: rect(25px, 9999px, 99px, 0) }
-  50% { clip: rect(50px, 9999px, 102px, 0) }
-  75% { clip: rect(30px, 9999px, 92px, 0) }
-  100% { clip: rect(91px, 9999px, 98px, 0) }
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-@keyframes glitch-loop-2 {
-  0% { top: -1px; left: 1px; clip: rect(65px, 9999px, 119px, 0) }
-  25% { top: -6px; left: 4px; clip: rect(79px, 9999px, 19px, 0) }
-  50% { top: -3px; left: 2px; clip: rect(68px, 9999px, 11px, 0) }
-  75% { top: 0px; left: -4px; clip: rect(95px, 9999px, 53px, 0) }
-  100% { top: -1px; left: -1px; clip: rect(31px, 9999px, 149px, 0) }
+/* Pattern styles */
+.container {
+  display: flex;
+}
+
+.left-half {
+  background-color: #f5f5f5;
+  flex: 1;
+  padding: 1rem;
+}
+
+.right-half {
+  background-color: #f5f5f5;
+  flex: 1;
+  padding: 1rem;
+}
+
+div.a {
+  text-align: center;
+  color: #b93a39;
+}
+
+div.b {
+  color: #b93a39;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+div {
+  border: 0px;
+  padding: 0px;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.video {
+float: right;
+padding: 10px;
 }
