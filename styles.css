@@ -23,13 +23,13 @@ body {
 }
 
 /* Style the navbar */
-#navbar {
+navbar {
   overflow: hidden;
   background-color: #900603;
 }
 
 /* Navbar links */
-#navbar a {
+navbar a {
   float: left;
   display: block;
   color: #B90E0A;
