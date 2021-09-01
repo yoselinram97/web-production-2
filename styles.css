@@ -6,9 +6,10 @@ body {
 /* Style the header */
 header {
   background-color: #373737;
-  padding: 35px;
-  margin: 0px;
+  padding: 30px;
   text-align: center;
+  font-size: 45px;
+  color: #fff;
 }
 
 /*style for glowing header*/
@@ -47,4 +48,18 @@ article {
   flex: 3;
   background-color: #edd6a0;
   padding: 10px;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
