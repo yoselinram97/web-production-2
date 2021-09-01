@@ -1,15 +1,4 @@
-/* Style the header */
-header {
-  background-color: #373737;
-  padding: 30px;
-  text-align: center;
-  font-size: 45px;
-  color: #fff;
-}
-
-/*style for main webpage header*/
-
-.@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
 body {
   margin:0px;
@@ -17,7 +6,7 @@ body {
   text-align:center;
 }
 
-container {
+#container {
   color:#999;
   text-transform: uppercase;
   font-size:36px;
@@ -29,12 +18,12 @@ container {
   display:block;
 }
 
-flip {
+#flip {
   height:50px;
   overflow:hidden;
 }
 
-flip > div > div {
+#flip > div > div {
   color:#fff;
   padding:4px 12px;
   height:45px;
@@ -42,17 +31,17 @@ flip > div > div {
   display:inline-block;
 }
 
-flip div:first-child {
+#flip div:first-child {
   animation: show 5s linear infinite;
 }
 
-flip div div {
+#flip div div {
   background:#42c58a;
 }
-flip div:first-child div {
+#flip div:first-child div {
   background:#4ec7f3;
 }
-flip div:last-child div {
+#flip div:last-child div {
   background:#DC143C;
 }
 
@@ -74,37 +63,4 @@ p {
   font-size:12px;
   color:#999;
   margin-top:200px;
-}
-
-/* Container for flexboxes */
-section {
-  display: -webkit-flex;
-  display: flex;
-}
-
-img {
-  float: left;
-}
-
-/* Style the content */
-article {
-  -webkit-flex: 3;
-  -ms-flex: 3;
-  flex: 3;
-  background-color: #edd6a0;
-  padding: 10px;
-}
-
-/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
-@media (max-width: 600px) {
-  section {
-    -webkit-flex-direction: column;
-    flex-direction: column;
-  }
-}
-
-div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
