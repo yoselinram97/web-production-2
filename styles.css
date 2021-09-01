@@ -17,6 +17,10 @@ header {
   color: white;
 }
 
+img {
+  float: left;
+}
+
 /* Container for flexboxes */
 section {
   display: -webkit-flex;
