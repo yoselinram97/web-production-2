@@ -1,12 +1,12 @@
 body {
   background-color: white;
-  font-family: serif;
+  font-family: garamond, serif;
 }
 
 /*style for glowing header*/
 
 .glow {
-  font-size: 60px;
+  font-size: 45px;
   color: #fff;
   text-align: center;
   animation: glow 1s ease-in-out infinite alternate;
