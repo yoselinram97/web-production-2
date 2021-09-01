@@ -28,3 +28,11 @@ header {
     text-shadow: 0 0 10px , 0 0 20px #9B1003, 0 0 30px #9B1003, 0 0 40px #9B1003, 0 0 50px #9B1003, 0 0 60px #9B1003, 0 0 70px #9B1003;
   }
 }
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #edd6a0;
+  padding: 10px;
+}
