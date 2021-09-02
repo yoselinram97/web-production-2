@@ -54,6 +54,10 @@ article {
   padding: 10px;
 }
 
+aside {
+  font-color: white;
+}
+
 /*position for self image */
 right {
   object-position: right;
