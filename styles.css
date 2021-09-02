@@ -9,12 +9,10 @@ p {
 
 /* Style the header */
 header {
-  background-color: #379683;
+  background: #379683;
   padding: 30px;
   text-align: center;
   font-size: 45px;
-  color: #fff;
-  image-postion: right;
 }
 
 
@@ -193,7 +191,7 @@ img {vertical-align: left;}
 
 div.film {
   text-align: center;
-  color: #white;
+  color: white;
 }
 
 div.a {
