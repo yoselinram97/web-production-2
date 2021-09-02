@@ -9,11 +9,12 @@ p {
 
 /* Style the header */
 header {
-  background-color: #5CDB95;
+  background-color: #white;
   padding: 30px;
   text-align: center;
   font-size: 45px;
   color: #fff;
+  image-postion: right;
 }
 
 
