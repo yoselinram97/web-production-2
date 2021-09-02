@@ -89,6 +89,12 @@ article {
   padding: 10px;
 }
 
+/*position for self image */
+right {
+  object-position: right;
+  width: 35%;
+}
+
 /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
 @media (max-width: 600px) {
   section {
