@@ -27,12 +27,16 @@ div.scrollmenu a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px;
+  padding: 12px;
   text-decoration: none;
 }
 
 div.scrollmenu a:hover {
   background-color: #777;
+}
+
+div.scrollmenu a.active {
+  background-color: #689775;
 }
 
 
