@@ -1,5 +1,5 @@
 body {
-  background-color: #pink;
+  background-color: #white;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -27,13 +27,14 @@ header {
 }
 
 .dropdown {
-  position: relative;
+  margin-left: 30px;
+  position: absolute;
   display: inline-block;
 }
 
 .dropdown-content {
   display: none;
-  position: relative;
+  position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -105,6 +106,10 @@ div {
 /* Pattern styles */
 .container {
   display: flex;
+}
+
+aside {
+  font-color:white;
 }
 
 .left-half {
