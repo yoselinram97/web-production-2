@@ -74,6 +74,10 @@ article {
   padding: 10px;
 }
 
+div.about {
+  padding-top: 30px;
+}
+
 aside {
   font-color: white;
 }
