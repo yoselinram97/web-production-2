@@ -79,10 +79,6 @@ div {
   display: flex;
 }
 
-aside {
-  font-color:white;
-}
-
 .left-half {
   background-color: #161616;
   flex: 1;
@@ -177,8 +173,8 @@ div.b {
 }
 
 .centered img {
-  width: 35%;
-  float: right;
+  width: 150px;
+  border-radius: 50%;
 }
 
 div {
