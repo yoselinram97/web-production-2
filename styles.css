@@ -9,7 +9,7 @@ p {
 
 /* Style the header */
 header {
-  background-color: #C5C6D0;
+  background-color: #379683;
   padding: 30px;
   text-align: center;
   font-size: 45px;
@@ -84,7 +84,7 @@ article {
   -webkit-flex: 3;
   -ms-flex: 3;
   flex: 3;
-  background-color: #787276;
+  background-color: #907163;
   padding: 10px;
 }
 
@@ -108,7 +108,7 @@ div {
 }
 
 .left-half {
-  background-color: #C5C6D0;
+  background-color: #161616;
   flex: 1;
   padding: 1rem;
 }
@@ -186,7 +186,7 @@ img {vertical-align: left;}
 /*end slideshow images*/
 
 .right-half {
-  background-color: #f5f5f5;
+  background-color: #161616;
   flex: 1;
   padding: 1rem;
 }
