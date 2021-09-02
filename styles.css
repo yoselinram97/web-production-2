@@ -212,8 +212,8 @@ div.b {
 }
 
 .centered img {
-  width: 150px;
-  border-radius: 50%;
+  width: 35%;
+  float: right;
 }
 
 div {
