@@ -57,7 +57,7 @@ header {
   background-color: #ad8174;
 }
 
-@media screen and (max-width: 600px) {
+ 
   .navbar a {
     float: none;
     display: block;
