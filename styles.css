@@ -7,7 +7,7 @@ body {
 
 /* Style the header */
 header {
-  background-color: #EDF5E1;
+  background-color: #a33327;
   padding: 30px;
   text-align: center;
   font-size: 45px;
@@ -66,12 +66,13 @@ article {
   -webkit-flex: 3;
   -ms-flex: 3;
   flex: 3;
-  background-color: #EDF5E1;
+  background-color: #a33327;
   padding: 10px;
 }
 
 div.about {
   padding-top: 40px;
+  text-align: center;
 }
 
 aside {
