@@ -16,45 +16,6 @@ header {
   color: #fff;
 }
 
-/*for dropdown menu*/
-
-.dropbtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-
-.dropdown {
-  margin-left: 30px;
-  position: absolute;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  font-size: 14px;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-
 /*style for glowing header*/
 
 .glow {
@@ -73,6 +34,25 @@ header {
     text-shadow: 0 0 10px , 0 0 20px #9B1003, 0 0 30px #9B1003, 0 0 40px #9B1003, 0 0 50px #9B1003, 0 0 60px #9B1003, 0 0 70px #9B1003;
   }
 }
+
+/*for dropdown menu*/
+
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
 
 /* Container for flexboxes */
 section {
