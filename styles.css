@@ -3,6 +3,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+  text-align: center;
+}
+
 /* Style the header */
 header {
   background-color: #C5C6D0;
