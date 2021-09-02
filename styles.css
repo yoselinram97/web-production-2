@@ -80,13 +80,14 @@ article {
   -webkit-flex: 3;
   -ms-flex: 3;
   flex: 3;
-  background-color: #a33327;
+  background-color: #c7493a;
   padding: 10px;
 }
 
 div.about {
   padding-top: 40px;
   text-align: center;
+  color: white;
 }
 
 aside {
