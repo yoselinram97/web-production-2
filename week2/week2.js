@@ -1,27 +1,27 @@
 const myTitle = 'A Joyful Dragon'
-let myObject = {'adjectives': ['smile', 'delicious', 'flying'], 'nouns': ['happy', 'food', 'dragon', 'full of promise', 'sleep']}
-let myArticleArray = ['The', 'an', 'a']
+let myObject = {'adjectives': ['smile', 'delicious', 'flying'], 'verbs': ['shows', 'eats', 'believes'], 'nouns': ['happy', 'pie', 'dragon', 'full of promise', 'great']}
+let myPrepositionArray = ['With', 'at', 'on', 'in']
 
-function returnPoem(title, article, noun, adjective) {
-  return title + ': ' + article + ' ' + adjective + ' ' + noun
+function returnPoem(title, preposition, noun, verb, adjective) {
+  return title + ': ' + preposition + ' ' + adjective + ' ' + verb + ' ' + noun
 }
 
-W(returnPoem(myTitle, myArticleArray[0], myObject.adjectives[0],myObject.nouns[0]))
+W(returnPoem(myTitle, myPrepositionArray[0], myObject.adjectives[0], myObject.verbs[0], myObject.nouns[0]))
 
-function forLoopPoem(title, articles, nouns, adjectives) {
+function forLoopPoem(title, prepositions, nouns, verbs, adjectives) {
   W(title)
   for (i = 0; i < 3; i++) {
-    W(articles[i] + ' ' + nouns[i] + ' ' + adjectives[i])
+    W(prepositions[i] + ' ' + nouns[i] + ' ' + verbs[i] + ' ' + adjectives[i])
   }
 }
 
-forLoopPoem(myTitle, myArticleArray, myObject.nouns, myObject.adjectives)
+forLoopPoem(myTitle, myPrepositionArray, myObject.nouns, myObject.verbs, myObject.adjectives)
 
 
 // while loop poem:
 let counter = 0
 while(counter < 8) {
-  W(getRandomItem(myArticleArray) + ' ' + getRandomItem(myObject.adjectives) + ' ' + getRandomItem(myObject.nouns))
+  W(getRandomItem(myPrepositionArray) + ' ' + getRandomItem(myObject.adjectives) + ' ' + getRandomItem(myObject.verbs) + ' ' + getRandomItem(myObject.nouns))
   counter++
 }
 
