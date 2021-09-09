@@ -1,6 +1,6 @@
 const myTitle = 'A Joyful Dragon'
 let myObject = {'adjectives': ['smile', 'delicious', 'flying'], 'verbs': ['shows', 'eats', 'enjoys'], 'nouns': ['happy', 'pie', 'dragon', 'full of promise', 'great']}
-let myPrepositionArray = ['While', 'at', 'on', 'in']
+let myPrepositionArray = ['While', 'at', 'for', 'in']
 
 function returnPoem(title, preposition, noun, verb, adjective) {
   return title + ': ' + preposition + ' ' + adjective + ' ' + verb + ' ' + noun
