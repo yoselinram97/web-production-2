@@ -75,8 +75,29 @@ header {
 
 
 
-div.text {
-  padding-top: 30px;
-  text-align: center;
-  color: 161616;
+
+
+
+p {
+	text-align:center;
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+.translate {
+  margin: 40px;
+  border: 0px
+  width: 220px;
+	height: 400px;
+
+}
+
+
+/* to scale pictures */
+.scale-transition {
+  transition: transform 250ms;
+}
+
+.scale-transition:hover {
+  transform: scale(2)
 }
