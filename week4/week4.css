@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+/*navbar*/
+
+ol,ul {
+	list-style: none;
+}
+
+div.scrollmenu li {
+	display:block;
+	width:23%;
+	float:left;
+	margin-left:0px;
+}
+
+div.scrollmenu {
+  background-color: #161616;
+  overflow: auto;
+  white-space: nowrap;
+  padding-bottom: 15px;
+}
+
+div.scrollmenu a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+div.scrollmenu a.active {
+  background-color: #689775;
+}
+
+
+
+/* Style the header */
+header {
+  background-color: #a33327;
+  padding: 30px;
+  text-align: center;
+  font-size: 45px;
+}
+
+
+
+
+/*style for glowing header*/
+
+.glow {
+  font-size: 45px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 2px , 0 0 4px , 0 0 6px #7A1712, 0 0 8px #7A1712, 0 0 10px #7A1712, 0 0 12px #7A1712, 0 0 14px #7A1712;
+  }
+
+  to {
+    text-shadow: 0 0 10px , 0 0 4px #9B1003, 0 0 8px #9B1003, 0 0 12px #9B1003, 0 0 16px #9B1003, 0 0 20px #9B1003, 0 0 24px #9B1003;
+  }
+}
+
+/* after the header and navbar*/
+
+h2 {
+  text-align: center;
+}
+
+section {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.color-div {
+  height: 60px;
+  background-color: green;
+}
+
+video {
+  width: 55%;
+}
