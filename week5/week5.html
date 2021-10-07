@@ -1,0 +1,61 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <title>Week5</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="horizontal-menu.css" rel="stylesheet">
+    <script src="utility.js"></script>
+    <link rel="stylesheet" href="week5.css">
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1 class="glow"> MEDP331 HOMEPAGE </h1>
+
+      </header>
+
+      <div class="scrollmenu">
+        <ul>
+      <li><a href="../index.html">HOME</a></li>
+      <li><a href="../week2/week2.html">WK2</a></li>
+      <li><a href="../week3/week3.html">WK3</a></li>
+      <li><a href="../week4/week4.html">WK4</a></li>
+      <li><a class="active" href="week5.html">WK5</a></li>
+      </ul>
+      </div>
+
+      <section> <h2>Recipes</h2>
+        <p>
+        <div id="donuts"></div><button onClick="appendDonuts()">Donuts</button>
+        </p>
+        <p>
+        <div id="cupcakes"></div><button onclick="appendCupcakes()">Cupcakes</button>
+        </p>
+        <p>
+        <div id="cake"></div><button onclick="appendCake()">Chocolate Cake</button>
+
+        <div id="recipe-library" class="recipe-flex"></div>
+        <div class="add-recipe">
+          <h3>Get A Recipe</h3>
+          <p> Bake: <input id="recipe-Bake"> </p>
+          <p> Tastes: <input id="recipe-Tastes"> </p>
+          <p> Color: <input id="recipe-Color"> </p>
+          <button onclick="addRecipe()"> Add Baking Order </button>
+        </div>
+       <p>
+       <section class="flex">
+         <input class="Randombutton" style="float: center;" type="button"
+         value="Click for baked good!" onclick="randomImg()">
+         <div id="quote"></div>
+
+      </section>
+    </p>
+    </section>
+    </main>
+
+    <script src="week5.js"></script>
+  </body>
+</html>
