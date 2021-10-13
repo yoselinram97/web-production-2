@@ -1,6 +1,6 @@
 body {
 font-family: Arial, Helvetica, sans-serif;
-background-color: #bab9b9
+background-color: #161616
 }
 
 
@@ -8,6 +8,8 @@ background-color: #bab9b9
 
 ol,ul {
 	list-style: none;
+  text-align: center;
+  color: white;
 }
 
 div.scrollmenu li {
@@ -72,11 +74,41 @@ header {
   }
 }
 
+/*css for below search bar */
 
-
-
-div.text {
-  padding-top: 30px;
+h2 {
   text-align: center;
-  color: 161616;
+  color: white;
+}
+
+section {
+  margin: 20px auto;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+}
+
+.box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.box {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  /* this makes sure our text is centered */
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  background-color: cyan;
+  color: white;
 }

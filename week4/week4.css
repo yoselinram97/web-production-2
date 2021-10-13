@@ -11,8 +11,8 @@ ol,ul {
 }
 
 div.scrollmenu li {
-	display:block;
-	width:18%;
+	display:inline-block;
+	width:10%;
 	float:left;
 	margin-left:0px;
 }

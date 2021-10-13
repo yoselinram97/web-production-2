@@ -8,9 +8,9 @@ ol,ul {
 }
 
 div.scrollmenu li {
-	display:block;
-	width:18%;
-	float:left;
+	display: inline-block;
+	width:10%;
+	float: left;
 	margin-left:0px;
 }
 
