@@ -1,4 +1,7 @@
 //onload function
+$('#gif').prepend($('<img>',{id:'gif',src:'tv.gif',width:'20%',align:'center'}))
+
+
 $(function() {
   $("#get-input").click(function() {
     let textInput = $("#text-input").val()
@@ -19,10 +22,11 @@ $(function() {
                   let img = $("<img/>", { src: work.show.image.medium })
                   img.appendTo('#recommendations')
                 }
+
               }
 
             }).fail(function() {
-              $('#fail').text("We couldn't find anything for that topic.")
+              $('#fail').text("No show found.")
               console.log("we can't find anything")
             })
 
