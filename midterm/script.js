@@ -6,7 +6,7 @@ $(document).ready(function(){
     $("body").css("background", "#161616");
     $(".topnav a").css("color", "white");
     $(".topnav a.active").css("color", "pink");
-    $("p").css("color", "white");
+    $("p, h4").css("color", "white");
   });
 });
 
