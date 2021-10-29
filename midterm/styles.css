@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background: #F8F8FF;
+}
+
+
+#footer {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #ffb6c1;
+  padding: 10px;           /* Footer height */
+}
+
+/*for navigation bar*/
+.topnav {
+  overflow: hidden;
+  padding-top: 10px;
+}
+
+.topnav a {
+  float: left;
+  color: #161616;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  color: red;
+}
+
+.topnav a.active {
+  color: #ff087f;
+}
+
+/*for logo image*/
+.logo-image{
+  width: 200px;
+  height: 46px;
+   overflow: hidden;
+   margin-top: -2px;
+   float: left;
+}
+
+#night {
+  background-color: #161616;
+  float: right;
+  margin-right: 20px;
+  color: white;
+}
+
+/*end navigation  bar*/
+
+h2 {
+  text-align: center;
+  color: #9E4244;
+}
+
+h3 {
+  color: #f26b8a;
+}
+
+h4 {
+  font-size: 14px;
+  margin: 60px;
+}
+
+section {
+  margin: 20px auto;
+  text-align: center;
+}
+
+p {
+  padding-bottom: 5px;
+
+}
+
+
+
+/* for genre containers */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.card_container {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-gap: 10px;
+margin: 10px;
+}
+
+.card_container > div {
+  cursor: pointer;
+  height: 300px;
+  background-size: cover;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  transition: all 0.5s ease-in;
+}
+
+.card_container > div:hover {
+  opacity: 0.7;
+  transform: scale(0.98);
+}
+
+.bg1 {
+  background: url('imgs/fantasy.png');
+}
+
+.bg2 {
+  background: url('imgs/romance.jpg');
+  color: #333;
+}
+
+.bg3 {
+  background: url('imgs/action.jpg');
+}
+
+.bg4 {
+  background: url('imgs/horror.jpg');
+  color: #333;
+}
+
+.bg5 {
+  background: url('imgs/anime.jpg');
+}
+
+.bg6 {
+  background: url('imgs/comedy.jpg');
+  color: #333;
+}
+
+.bg7 {
+  background: url('imgs/mystery.jpg');
+}
+
+.bg8 {
+  background: url('imgs/crime.jpg');
+  color: #333;
+}
+
+.bg9 {
+  background: url('imgs/thriller.jpg');
+}
+
+.bg10 {
+  background: url('imgs/documentary.png');
+  color: #333;
+}
+
+.bg11 {
+  background: url('imgs/food.jpg');
+}
+
+.bg12 {
+  background: url('imgs/nature.jpg');
+  color: #333;
+}
+
+
+
+
+/* modal starts here */
+
+button {
+  background-color: pink;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 25px;
+}
+
+.popup_content {
+  margin: 10px;
+  padding: 0 10px;
+  padding-top: 20px;
+  max-width: 70%;
+  border: 2px solid #e68a89;
+  border-radius: 5px;
+  background: white;
+}
+
+/*some of the popup lists look messy but I tried to organize it as much as I could*/
+
+ul li{
+  	display: inline-table;
+    text-align: center;
+    padding-right: 10px;
+    margin: 5px;
+    color: #F26B8A;
+}
+
+li {
+  width: 30%;
+}
+
+/*for footer icons*/
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-vimeo {
+  color: #fc4c4e;
+}
+
+.fa-instagram {
+  color: #fc4c4e;
+}
+
+.fa-google {
+  color: #fc4c4e;
+}

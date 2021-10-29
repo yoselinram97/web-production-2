@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="stream.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script>
+   //wasn't able to return the data so will have to refresh page manually
+   //didn't want to use an extra js sheet bc this is the only js for this page
+   $(document).ready(function(){
+     $('#night').click(function(){
+       $(this).css("background-color", "white");
+       $(this).css("color", "black");
+       $("body").css("background", "#161616");
+       $(".topnav a").css("color", "white");
+       $(".topnav a.active").css("color", "pink");
+       $("p").css("color", "white");
+     });
+   });
+  </script>
+ </head>
+ <body>
+
+   <div class="topnav">
+     <div class="logo-image">
+           <img src="../tvride.png" width="200px" height="46px" class="img-fluid">
+     </div>
+     <a href="../midterm.html">Home</a>
+     <a class="active" href="stream.html">Stream</a>
+     <a href="../rec/recs.html">Recs</a>
+     <button id="night">Night Mode</button>
+   </div>
+
+<div class="clearfix">
+  <img src="tv.gif" width="200px" float="right" />
+<div class="header">
+
+<h2>Popular Streaming Services and Monthly Payment Plans</h2>
+  <p>Click on the images to go to the streaming website.</p>
+</div>
+</div>
+
+   <div class="clearfix">
+   <h3>1. Netflix</h3>
+   <p><a href="https://www.netflix.com/"><img src="netflix.jpeg" alt="mexican" style="width:300px;height:300px; margin-right:15px;"></a>
+   <br><b>Netflix Basic:</b> $9 a month for standard definition (SD) streaming
+<p><b>Netflix Standard:</b> $14 a month for high definition (HD) streaming on up to two devices at the same time
+<p><b>Netflix Premium:</b> $18 a month for up to 4K HDR streaming with Dolby Atmos on up to four devices at the same time
+   </div>
+
+   <div class="clearfix">
+   <h3>2. Hulu  </h3>
+   <p><a href="https://www.hulu.com/"><img src="hulu.jpg" alt="Hulu" style="width:300px;height:300px; margin-right:15px;"></a>
+   <br><b>Hulu Basic:</b> $7 a month for ad-supported on-demand streaming
+<p><b>Hulu Premium:</b> $13 a month for ad-free on-demand streaming
+<p><b>Hulu Basic + Live TV:</b> $65 a month for ad-supported on-demand and live TV streaming
+<p><b>Hulu Premium + Live TV:</b> $71 a month for ad-free, on-demand and ad-supported live TV streaming
+   </div>
+
+   <div class="clearfix">
+   <h3>3. HBOMax</h3>
+   <p><a href="https://www.hbomax.com/"><img src="hbo.jpg" alt="HBO" style="width:300px;height:300px; margin-right:15px;"></a>
+    <br><b>HBO Max (ad-free):</b> $15 a month for ad-free access to full HBO Max library
+<p><b>HBO Max (ad-supported):</b> $10 a month for ad-supported access to HBO Max library with the exception of Warner Bros in-theater releases
+   </div>
+
+   <div class="clearfix">
+   <h3>4. Disney+  </h3>
+   <p><a href="https://www.disneyplus.com/"><img src="disney.jpg" alt="Disney" style="width:300px;height:300px; margin-right:15px;"></a>
+     <br> <b>Disney Plus:</b> $8 a month or $80 a year
+   <p><b>Disney Plus with ESPN+ and Hulu:</b> $14 a month
+   </div>
+
+   <div class="clearfix">
+   <h3>5. Apple TV+</h3>
+   <p><a href="https://tv.apple.com/?ign-itscg=10000&ign-itsct=atv-tv_op-nav_wch-ctr-210111"><img src="appletv.jpg" alt="AppleTV" style="width:300px;height:300px; margin-right:15px;"></a>
+   <br><b>Apple TV Plus:</b> $5 a month or $50 a year for ad-free streaming
+<p><b>Apple One:</b> $15 a month for Apple TV Plus, Apple Music, 50GB of iCloud, and Apple Arcade
+   </div>
+
+   <div class="clearfix">
+   <h3>6. Paramount+ </h3>
+   <p><a href="https://www.paramountplus.com/"><img src="paramount.jpg" alt="Paramount" style="width:300px;height:300px; margin-right:15px;"></a>
+   <br><b>Paramount Plus (Essential):</b> $5 a month or $50 a year for ad-supported streaming.
+<p><b>Paramount Plus (Premium):</b> $10 a month or $100 per year for commercial-free streaming and live CBS.
+   </div>
+
+   <div id="footer">
+   <p>Yoselin Castelan Ramirez | Feel free to reach me at:
+     <br><a href="https://vimeo.com/user124412065" class="fa fa-vimeo"></a>  <a href="https://www.instagram.com/ramyoselin/" class="fa fa-instagram"></a>  <a href="mailto:yoselinramirez13@hotmail.com" class="fa fa-google"></a>
+   </p>
+   </div>
+
+ </body>
+</html>
