@@ -4,6 +4,7 @@ $(document).ready(function(){
     $(this).css("background-color", "white");
     $(this).css("color", "black");
     $("body").css("background", "#161616");
+    $(".popup_content").css("background", "#161616");
     $(".topnav a").css("color", "white");
     $(".topnav a.active").css("color", "pink");
     $("p, h4").css("color", "white");
